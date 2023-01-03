@@ -1,0 +1,40 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "vn-dev (debug mode)",
+          "request": "launch",
+          "type": "dart",
+          "program": "lib/main_vn_dev.dart",
+          "args": [
+              "--flavor",
+              "vnDev"
+          ]
+      },
+      {
+        "name": "vn-test (profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "profile",
+        "program": "lib/main_vn_test.dart",
+        "args": [
+            "--flavor",
+            "vnTest"
+        ]
+      },
+      {
+          "name": "vn-prod (release mode)",
+          "request": "launch",
+          "type": "dart",
+          "flutterMode": "release",
+          "program": "lib/main_vn_prod.dart",
+          "args": [
+              "--flavor",
+              "vnProd"
+          ]
+      },
+  ]
+}

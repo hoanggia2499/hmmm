@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678486543604",
+    "firebase_url": "https://mirukuru-141509.firebaseio.com",
+    "project_id": "mirukuru-141509",
+    "storage_bucket": "mirukuru-141509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678486543604:android:f2c250c209b8f741e8e2a1",
+        "android_client_info": {
+          "package_name": "jp.mlkl.mirukuru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678486543604-5h89s2s44epp1vq937ak73ee0kq87ncv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnoQARgMMfMXG-moeF_4AzYv119rVTMdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678486543604-5h89s2s44epp1vq937ak73ee0kq87ncv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
